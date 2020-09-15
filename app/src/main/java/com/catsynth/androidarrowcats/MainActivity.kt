@@ -1,9 +1,9 @@
-package com.example.androidarrowcats
+package com.catsynth.androidarrowcats
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.fragment.app.FragmentActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : FragmentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

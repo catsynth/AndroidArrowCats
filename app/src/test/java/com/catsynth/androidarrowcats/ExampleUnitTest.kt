@@ -1,4 +1,4 @@
-package com.example.androidarrowcats
+package com.catsynth.androidarrowcats
 
 import org.junit.Test
 

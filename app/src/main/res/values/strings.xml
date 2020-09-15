@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidArrowCats</string>
+    <string name="cat_button">Cat Button</string>
 </resources>
