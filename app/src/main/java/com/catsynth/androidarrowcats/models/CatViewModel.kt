@@ -4,7 +4,6 @@ import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import androidx.lifecycle.ViewModel
 import arrow.core.*
-import arrow.core.Either.Companion.left
 import arrow.core.extensions.either.applicativeError.applicativeError
 import arrow.fx.IO
 import arrow.fx.extensions.io.async.async
@@ -12,7 +11,6 @@ import arrow.fx.fix
 import arrow.integrations.retrofit.adapter.CallKindAdapterFactory
 import arrow.integrations.retrofit.adapter.unwrapBody
 import arrow.optics.Lens
-import arrow.optics.Optional
 import com.catsynth.androidarrowcats.BuildConfig
 import com.catsynth.androidarrowcats.network.CatApi
 import com.squareup.picasso.Picasso

@@ -2,17 +2,22 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+def cat_api_key = properties.getProperty('catApiKey')
+
 android {
 
     compileSdkVersion 30
     defaultConfig {
+
         applicationId "com.catsynth.androidarrowcats"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField "String", "CAT_API_KEY", catApiKey
+        buildConfigField "String", "CAT_API_KEY", cat_api_key
 
     }
 
