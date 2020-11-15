@@ -18,7 +18,9 @@ import com.catsynth.androidarrowcats.models.CatViewModel
 
 @Composable
 fun ButtonBar (model: CatViewModel) {
-    Row {
+    Row(
+        modifier = Modifier.height(dimensionResource(id = R.dimen.top_button_height))
+    ) {
         TextButton(
             modifier = Modifier.width(dimensionResource(id = R.dimen.top_button_width))
                 .height(dimensionResource(id = R.dimen.top_button_height)),
