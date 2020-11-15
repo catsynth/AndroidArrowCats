@@ -1,3 +1,3 @@
-package com.catsynth.androidarrowcats
+package com.catsynth.androidarrowcats.data
 
-data class CatResult
+data class CatResult ( val id : String, val url : String)

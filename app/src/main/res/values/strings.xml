@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">AndroidArrowCats</string>
+    <string name="app_title">Android Arrow Cats</string>
     <string name="cat_button">Cat Button</string>
+    <string name="cat_api">d10c4b51-d658-416f-9d6f-4735f439318d</string>
 </resources>
